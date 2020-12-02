@@ -18,7 +18,9 @@ Para as operações com o banco de dados funcionarem, é preciso ter o MySQL ins
 ## Itens Cobertos
 
 A) Foram utilizados componentes JSF para a UI e um componente server-side bean.
+
 B) Do CRUD foi feito o cadastrar e ler. Apesar do código das outras operações estarem prontos, não consegui pegar o dado do componente Primefaces.
+
 G) Foram utilizados alguns componentes do Primefaces.
 
 No mais utilizei JDBC para conectar e fazer as operações no banco de dados (MySQL no caso)
