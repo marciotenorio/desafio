@@ -6,10 +6,10 @@
 3. Acessar pelo navegador o endereço: `localhost:8080/desafioesig/cadastrarevento.xhtml`
 
 Para as operações com o banco de dados funcionarem, é preciso ter o MySQL instalado, editar os atributos da classe ` EventoJDBC` com os dados do seu banco e efetuar os seguintes comandos:
->CREATE DATABASE DESAFIO;
->USE DESAFIO;
->SELECT DATABASE();
->CREATE TABLE eventos(
+CREATE DATABASE DESAFIO;
+USE DESAFIO;
+SELECT DATABASE();
+CREATE TABLE eventos(
 	nome VARCHAR(50) NOT NULL,
     PRIMARY KEY(nome)
 );
